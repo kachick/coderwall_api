@@ -22,7 +22,6 @@ Try this
 ```ruby
 require 'coderwall'
 
-
 Coderwall.user('kachick') do
   p name      #=> "Kenichi Kamiya"
   p location #=> "Japan"
