@@ -7,8 +7,8 @@ module Coderwall
   User = Striuct.define {
     member :username, AND(String, /\A\S+\z/)
     alias_member :id, :username
-    member :name, AND(String, AND(String, /\A[^\n]+\z/))
-    member :location, OR(nil, AND(String, AND(String, /\A[^\n]+\z/)))
+    member :name, AND(String, /\A[^\n]+\z/)
+    member :location, OR(nil, AND(String, /\A[^\n]+\z/))
     member :endorsements, AND(Integer, ->int{int >= 0})
     alias_member :endorsements_count, :endorsements
     member :team, OR(nil, AND(String, /\A[a-f0-9]{24}\z/i))
