@@ -6,6 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = 'coderwall_api'
   gem.version       = Coderwall::VERSION.dup
   gem.authors       = ['Kenichi Kamiya']
+  gem.licenses      = ['MIT']
   gem.email         = ['kachick1+ruby@gmail.com']
   gem.summary       = 'An API wrapper for the coderwall.com'
   gem.description   = gem.summary.dup
