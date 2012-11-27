@@ -10,7 +10,7 @@ An API wrapper for the coderwall.com
 Features
 --------
 
-See [coderwall API](http://coderwall.com/api)
+See [coderwall API](https://coderwall.com/api)
 
 Usage
 -----

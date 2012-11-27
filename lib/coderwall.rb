@@ -5,7 +5,7 @@
 # @see http://coderwall.com/api
 module Coderwall
 
-  URL_ROOT = 'http://coderwall.com'.freeze
+  URL_ROOT = 'https://coderwall.com'.freeze
 
 end
 
