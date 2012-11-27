@@ -56,6 +56,7 @@ Build Status
 Link
 ----
 
+* [Home](http://kachick.github.com/coderwall_api)
 * [code](https://github.com/kachick/coderwall_api)
 * [API](http://kachick.github.com/coderwall_api/yard/frames.html)
 * [issues](https://github.com/kachick/coderwall_api/issues)
