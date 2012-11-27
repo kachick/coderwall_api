@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['kachick1+ruby@gmail.com']
   gem.summary       = 'An API wrapper for the coderwall.com'
   gem.description   = gem.summary.dup
-  gem.homepage      = 'http://github.com/kachick/coderwall_api'
+  gem.homepage      = 'http://kachick.github.com/coderwall_api'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
