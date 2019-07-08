@@ -1,8 +1,8 @@
 module Coderwall
 
-  # Scoped coderwall API version at 2012/11/28
+  # Scoped coderwall API version at 2019/7/8
 
   # @return [String]
-  VERSION = '0.0.2.1'.freeze
+  VERSION = '0.1.0'.freeze
 
 end
