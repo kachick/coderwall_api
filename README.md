@@ -38,8 +38,7 @@ See code :)
 Requirements
 -------------
 
-* Ruby - [1.9.2 or later](http://travis-ci.org/#!/kachick/coderwall_api)
-* [striuct](https://github.com/kachick/striuct)
+* Ruby - [2.5 or later](http://travis-ci.org/#!/kachick/coderwall_api)
 
 Install
 -------

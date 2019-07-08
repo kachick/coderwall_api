@@ -17,8 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = '>= 1.9.2'
-
   gem.add_dependency 'striuct', '~> 0.4.2'
 
   gem.add_development_dependency 'declare', '~> 0.0.5'
