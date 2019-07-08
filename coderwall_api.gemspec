@@ -17,10 +17,10 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'striuct', '~> 0.4.2'
+  gem.add_dependency 'striuct', '~> 0.6.1'
 
-  gem.add_development_dependency 'declare', '~> 0.0.5'
-  gem.add_development_dependency 'yard', '~> 0.8'
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'bundler'
+  gem.add_development_dependency 'declare', '~> 0.1.0'
+  gem.add_development_dependency 'yard', '>= 0.9.20', '< 2'
+  gem.add_development_dependency 'rake', '>= 10', '< 20'
+  gem.add_development_dependency 'bundler', '>= 2', '< 3'
 end
