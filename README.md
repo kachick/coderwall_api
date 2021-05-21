@@ -1,6 +1,10 @@
 coderwall_api
 =============
 
+* ***This repository is archived***
+* ***No longer maintained***
+* ***All versions have been yanked from https://rubygems.org/ for releasing valuable namespace for others***
+
 Description
 -----------
 
